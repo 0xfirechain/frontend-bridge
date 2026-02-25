@@ -17,11 +17,11 @@ interface NavLinkItem {
 }
 
 export const navLinks: NavLinkItem[] = [
-  { title: 'Stake', url: links.stake, icon: <StakeIcon width={20} height={20} /> },
+  { title: 'DonaSwap', url: links.stake, icon: <StakeIcon width={20} height={20} /> },
   { title: 'X.com', url: links.twitter, icon: <XIcon width={19} height={17} /> },
-  { title: 'Hyperlane', url: links.home, icon: <WebSimpleIcon width={20} height={20} /> },
+  { title: 'Fire Station', url: links.home, icon: <WebSimpleIcon width={20} height={20} /> },
   {
-    title: 'Support',
+    title: 'Faucet',
     url: links.support,
     icon: <QuestionMarkIcon width={20} height={20} color={Color.primary[500]} />,
   },

@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { ConnectWalletButton } from '../../features/wallet/ConnectWalletButton';
 import Logo from '../../images/logos/app-logo.svg';
 import Name from '../../images/logos/app-name.svg';
-import Title from '../../images/logos/app-title.svg';
 import { HamburgerIcon } from '../icons/HamburgerIcon';
 import { NavItem, navLinks } from './Nav';
 
@@ -36,7 +35,6 @@ export function Header() {
           <Image src={Logo} width={46} alt="" className="h-auto" />
           <Image src={Name} width={150} alt="" className="ml-1.5" />
         </div>
-        <Image src={Title} width={43} alt="" className="self-end" />
       </Link>
 
       <div className="lg:absolute lg:right-12">
