@@ -1,4 +1,4 @@
-import { isAbacusWorksChain } from '@hyperlane-xyz/registry';
+import { isAbacusWorksChain } from '@avenbreaks/hyperlane-registry';
 import {
   ChainMap,
   ChainMetadata,

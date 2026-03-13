@@ -12,7 +12,7 @@ export const links = {
   tos: '',
   privacyPolicy: '',
   bounty: '',
-  imgPath: 'https://cdn.jsdelivr.net/gh/hyperlane-xyz/hyperlane-registry@main',
+  imgPath: 'https://cdn.jsdelivr.net/npm/@avenbreaks/hyperlane-registry@18.0.0/dist',
   transferFees: '',
   stake: 'https://donaswap.io',
   support: 'https://faucet.firestation.io',

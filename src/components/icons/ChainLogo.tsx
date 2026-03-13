@@ -32,7 +32,7 @@ export function ChainLogo({
   return (
     <ChainLogoInner
       chainName={name}
-      registry={registry}
+      registry={registry as any}
       size={size}
       background={background}
       Icon={Icon}

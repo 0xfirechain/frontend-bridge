@@ -58,11 +58,6 @@ export const config: Config = Object.freeze({
   walletConnectProjectId,
   walletProtocols: [
     ProtocolType.Ethereum,
-    ProtocolType.Sealevel,
-    ProtocolType.Cosmos,
-    ProtocolType.Starknet,
-    ProtocolType.Radix,
-    ProtocolType.Aleo,
   ],
   shouldDisableChains: false,
   rpcOverrides,

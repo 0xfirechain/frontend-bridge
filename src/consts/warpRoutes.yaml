@@ -3,21 +3,65 @@
 # The input here is typically the output of the Hyperlane CLI warp deploy command
 ---
 tokens:
-  - addressOrDenom: "0x7b5B8164dd6B983e1b848FF8B3F8F9Ce4ff6Bd68"
+  - addressOrDenom: "0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7"
     chainName: rinia
     connections:
-      - token: ethereum|sepolia|0x7b5B8164dd6B983e1b848FF8B3F8F9Ce4ff6Bd68
+      - token: ethereum|basesepolia|0x6D017385D293906c75cf38f3087776f49D25Af6C
+      - token: ethereum|optimismsepolia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|sepolia|0x671c6B86BDD8b4E601645Fe49a0266597ea8857B
+      - token: ethereum|bsctestnet|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
     decimals: 18
+    logoURI: https://raw.githubusercontent.com/0xfirechain/frontend-configs/refs/heads/main/configs/network-icons/logo.svg
     name: FireChain
     standard: EvmHypNative
     symbol: FIRE
-  - addressOrDenom: "0x7b5B8164dd6B983e1b848FF8B3F8F9Ce4ff6Bd68"
-    chainName: sepolia
+  - addressOrDenom: "0x6D017385D293906c75cf38f3087776f49D25Af6C"
+    chainName: basesepolia
     connections:
-      - token: ethereum|rinia|0x7b5B8164dd6B983e1b848FF8B3F8F9Ce4ff6Bd68
+      - token: ethereum|rinia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|optimismsepolia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|sepolia|0x671c6B86BDD8b4E601645Fe49a0266597ea8857B
+      - token: ethereum|bsctestnet|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
     decimals: 18
+    logoURI: https://raw.githubusercontent.com/0xfirechain/frontend-configs/refs/heads/main/configs/network-icons/logo.svg
     name: FireChain
     standard: EvmHypSynthetic
     symbol: FIRE
-    
+  - addressOrDenom: "0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7"
+    chainName: optimismsepolia
+    connections:
+      - token: ethereum|rinia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|basesepolia|0x6D017385D293906c75cf38f3087776f49D25Af6C
+      - token: ethereum|sepolia|0x671c6B86BDD8b4E601645Fe49a0266597ea8857B
+      - token: ethereum|bsctestnet|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+    decimals: 18
+    logoURI: https://raw.githubusercontent.com/0xfirechain/frontend-configs/refs/heads/main/configs/network-icons/logo.svg
+    name: FireChain
+    standard: EvmHypSynthetic
+    symbol: FIRE
+  - addressOrDenom: "0x671c6B86BDD8b4E601645Fe49a0266597ea8857B"
+    chainName: sepolia
+    connections:
+      - token: ethereum|rinia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|basesepolia|0x6D017385D293906c75cf38f3087776f49D25Af6C
+      - token: ethereum|optimismsepolia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|bsctestnet|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+    decimals: 18
+    logoURI: https://raw.githubusercontent.com/0xfirechain/frontend-configs/refs/heads/main/configs/network-icons/logo.svg
+    name: FireChain
+    standard: EvmHypSynthetic
+    symbol: FIRE
+  - addressOrDenom: "0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7"
+    chainName: bsctestnet
+    connections:
+      - token: ethereum|rinia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|basesepolia|0x6D017385D293906c75cf38f3087776f49D25Af6C
+      - token: ethereum|optimismsepolia|0xC14448379021Ab17787C907c3Ab02B3E85dFA9e7
+      - token: ethereum|sepolia|0x671c6B86BDD8b4E601645Fe49a0266597ea8857B
+    decimals: 18
+    logoURI: https://raw.githubusercontent.com/0xfirechain/frontend-configs/refs/heads/main/configs/network-icons/logo.svg
+    name: FireChain
+    standard: EvmHypSynthetic
+    symbol: FIRE
+
 options: {}

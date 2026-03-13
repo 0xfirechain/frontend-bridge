@@ -1,4 +1,4 @@
-import { BaseRegistry } from '@hyperlane-xyz/registry';
+import { BaseRegistry } from '@avenbreaks/hyperlane-registry';
 import { MultiProtocolProvider, WarpCoreConfig, WarpCoreConfigSchema } from '@hyperlane-xyz/sdk';
 import { failure, Result, success, tryParseJsonOrYaml } from '@hyperlane-xyz/utils';
 import { Button, CopyButton, IconButton, Modal, PlusIcon, XIcon } from '@hyperlane-xyz/widgets';

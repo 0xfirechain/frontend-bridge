@@ -1,4 +1,4 @@
-import { chainAddresses } from '@hyperlane-xyz/registry';
+import { chainAddresses } from '@avenbreaks/hyperlane-registry';
 import { MultiProtocolProvider, Token } from '@hyperlane-xyz/sdk';
 import { ProtocolType, normalizeAddress } from '@hyperlane-xyz/utils';
 import {

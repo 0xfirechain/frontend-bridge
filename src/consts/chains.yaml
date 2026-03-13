@@ -5,11 +5,11 @@
 ---
 rinia:
   blockExplorers:
-  - apiKey: empty
-    apiUrl: https://rinia.firescan.io/api
-    family: blockscout
-    name: firestation
-    url: https://rinia.firescan.io
+    - apiKey: empty
+      apiUrl: https://rinia.firescan.io/api
+      family: blockscout
+      name: firestation
+      url: https://rinia.firescan.io
   chainId: 917
   displayName: FireChain
   displayNameShort: FIRE
@@ -25,5 +25,4 @@ rinia:
     - http: https://rpc-fallback.firestation.io
     - http: https://rpc-rinia.firestation.io
   technicalStack: other
-  logoURI: https://raw.githubusercontent.com/0xfirechain/frontend-configs/refs/heads/main/configs/network-icons/firescan-nw-nodark.svg
-
+  logoURI: https://raw.githubusercontent.com/0xfirechain/frontend-configs/refs/heads/main/configs/network-icons/logo.svg

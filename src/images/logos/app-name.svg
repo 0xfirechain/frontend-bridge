@@ -6,7 +6,7 @@
     content: RINIA(5*12-3=57) + space(12) + BRIDGE(6*12-3=69) = 138px
     offsetX=(152-138)/2=7, offsetY=(35-15)/2=10
   -->
-  <g fill="#CC0000" transform="translate(7, 10)">
+  <g fill="#ffffff" transform="translate(7, 10)">
 
     <!-- R -->
     <rect x="0"  y="0"  width="3" height="3"/>

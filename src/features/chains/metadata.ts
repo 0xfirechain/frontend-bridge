@@ -1,4 +1,4 @@
-import { IRegistry, chainMetadata as publishedChainMetadata } from '@hyperlane-xyz/registry';
+import { IRegistry, chainMetadata as publishedChainMetadata } from '@avenbreaks/hyperlane-registry';
 import {
   ChainMap,
   ChainMetadata,

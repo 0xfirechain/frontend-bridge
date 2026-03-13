@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import Link from 'next/link';
 import { forwardRef, ReactNode } from 'react';
 import { links } from '../../consts/links';
-import { Color } from '../../styles/Color';
 import { BookIcon } from '../icons/BookIcon';
 import { QuestionMarkIcon } from '../icons/QuestionMarkIcon';
 import { StakeIcon } from '../icons/StakeIcon';
@@ -23,17 +22,17 @@ export const navLinks: NavLinkItem[] = [
   {
     title: 'Faucet',
     url: links.support,
-    icon: <QuestionMarkIcon width={20} height={20} color={Color.primary[500]} />,
+    icon: <QuestionMarkIcon width={20} height={20} color="#ffffff" />,
   },
   {
     title: 'Docs',
     url: links.docs,
-    icon: <BookIcon color={Color.primary[500]} width={23} height={16} />,
+    icon: <BookIcon color="#ffffff" width={23} height={16} />,
   },
   {
     title: 'Github',
     url: links.github,
-    icon: <GithubIcon width={20} height={20} color={Color.primary[500]} />,
+    icon: <GithubIcon width={20} height={20} color="#ffffff" />,
   },
 ];
 
@@ -50,7 +49,7 @@ export const NavItem = forwardRef<HTMLAnchorElement, NavItemProps>(function NavI
     <Link
       ref={ref}
       className={clsx(
-        'flex items-center gap-2 text-primary-500 decoration-primary-500 underline-offset-2 hover:underline',
+        'flex items-center gap-2 text-white decoration-white underline-offset-2 hover:underline',
         className,
       )}
       target="_blank"

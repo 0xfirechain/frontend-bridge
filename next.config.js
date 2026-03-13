@@ -21,6 +21,7 @@ const IMG_SRC_HOSTS = [
   'https://*.walletconnect.com',
   'https://*.githubusercontent.com',
   'https://cdn.jsdelivr.net/gh/hyperlane-xyz/hyperlane-registry@main/',
+  'https://cdn.jsdelivr.net/npm/@avenbreaks/hyperlane-registry@18.0.0/',
   'https://js.refiner.io',
   'https://storage.refiner.io',
   'https://js.intercomcdn.com',
@@ -127,6 +128,24 @@ const nextConfig = {
     NEXT_PUBLIC_SENTRY_DSN: process.env.NEXT_PUBLIC_SENTRY_DSN || '',
   },
 
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cdn.jsdelivr.net',
+        pathname: '/npm/@avenbreaks/hyperlane-registry**',
+      },
+      {
+        protocol: 'https',
+        hostname: '*.githubusercontent.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'raw.githubusercontent.com',
+      },
+    ],
+  },
+
   reactStrictMode: true,
 
   serverExternalPackages: ['@sentry/nextjs'],
@@ -149,6 +168,7 @@ const nextConfig = {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
     optimizePackageImports: [
+      '@avenbreaks/hyperlane-registry',
       '@hyperlane-xyz/registry',
       '@hyperlane-xyz/sdk',
       '@hyperlane-xyz/utils',

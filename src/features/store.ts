@@ -4,7 +4,7 @@ import {
   GithubRegistry,
   IRegistry,
   PartialRegistry,
-} from '@hyperlane-xyz/registry';
+} from '@avenbreaks/hyperlane-registry';
 import {
   ChainMap,
   ChainMetadata,

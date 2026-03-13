@@ -1,7 +1,7 @@
 import {
   IRegistry,
   warpRouteConfigs as publishedRegistryWarpRoutes,
-} from '@hyperlane-xyz/registry';
+} from '@avenbreaks/hyperlane-registry';
 import {
   ChainName,
   TOKEN_STANDARD_TO_PROTOCOL,
