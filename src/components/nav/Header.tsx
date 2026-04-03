@@ -17,13 +17,13 @@ export function Header() {
         </Link>
         <DropdownMenu
           button={<HamburgerIcon width={20} height={19} />}
-          buttonClassname="rounded p-2 text-primary-500 data-[open]:bg-primary-25 data-[open]:shadow-[inset_4px_4px_4px_rgba(154,13,255,0.1)] data-[open]:text-white"
-          menuClassname="py-4"
+          buttonClassname="rounded p-2 text-primary-700 data-[open]:bg-primary-700 data-[open]:text-white"
+          menuClassname="py-4 bg-primary-800"
           menuItems={navLinks.map((item) => (
             <NavItem
               key={item.title}
               item={item}
-              className="w-full gap-3 px-6 py-2 hover:bg-primary-50 hover:bg-opacity-30"
+              className="w-full gap-3 px-6 py-2 text-white hover:bg-primary-700"
             />
           ))}
         />
